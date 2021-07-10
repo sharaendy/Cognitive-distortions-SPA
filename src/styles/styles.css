@@ -1,0 +1,14 @@
+section {
+  max-width: 1110px;
+  margin: 100px auto;
+}
+
+.background-main::before {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.9;
+
+  content: "";
+}
