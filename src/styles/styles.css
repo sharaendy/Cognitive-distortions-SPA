@@ -1,7 +1,7 @@
 .wrapper {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   background-color: var(--light);
 }
@@ -13,10 +13,10 @@
   height: 100vh;
   margin: 0 auto;
 
-  border: 2px solid transparent;
+  border: 2px solid red;
 }
 
-.section::before {
+.background::before {
   position: absolute;
 
   display: block;
@@ -82,4 +82,36 @@
   text-transform: uppercase;
 
   background-color: var(--main-color);
+}
+
+.title-video {
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.discription {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.containde-video {
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  width: 919px;
+  height: 569px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.video-sec {
+  height: 814px;
+  z-index: 300;
+}
+
+.navig-sec {
+  height: 991px;
+  background-color: var(--main-color-dark);
 }
