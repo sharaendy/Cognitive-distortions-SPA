@@ -1,0 +1,19 @@
+.font-colr-main {
+  color: var(--main-color);
+}
+
+.font-colr-brown {
+  color: var(--brown);
+}
+
+.font-colr-semi-trans {
+  color: var(--semi-trans-white);
+}
+
+.font-colr-white {
+  color: #fff;
+}
+
+.font-colr-dark {
+  color: var(--dark);
+}

@@ -1,0 +1,15 @@
+.bgrd-col-light {
+  background-color: var(--light);
+}
+
+.bgrd-col-white {
+  background-color: var(--white);
+}
+
+.bgrd-col-brown {
+  background-color: var(--brown);
+}
+
+.bgrd-col-dark {
+  background-color: var(--main-color-dark);
+}
