@@ -49,6 +49,10 @@
   background-color: var(--brown);
 }
 
+.sec-novelty {
+  background-color: var(--light);
+}
+
 .container {
   position: relative;
 
