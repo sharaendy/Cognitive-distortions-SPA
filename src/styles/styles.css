@@ -1,5 +1,5 @@
 .wrapper {
-  width: 100vw;
+  /* width: 100vw; */
   /* overflow: hidden; */
 }
 
@@ -13,7 +13,8 @@
   position: relative;
 
   max-width: 1440px;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   margin: 0 auto;
 
   border: 1px solid transparent;
@@ -83,6 +84,7 @@
 .discription {
   text-align: center;
   margin-bottom: 30px;
+  color: #212529;
 }
 
 .video-sec {
@@ -106,6 +108,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 216px;
+  list-style: none;
+  padding: 0;
 }
 
 .item-number {
