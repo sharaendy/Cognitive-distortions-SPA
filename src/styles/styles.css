@@ -185,3 +185,56 @@
   margin-right: 30px;
   margin-bottom: 20px;
 }
+
+.container-ikea {
+  /* padding: 100px 0; */
+}
+
+.bottom-article {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.upper-article {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.ikea-pre-title {
+  font-family: Neucha;
+  font-size: 24px;
+  color: var(--semi-trans-dark);
+}
+
+.ikea-content-upper {
+  font-family: Neucha;
+  font-size: 34px;
+  line-height: 41px;
+  margin-top: 30px;
+}
+
+.image {
+  vertical-align: middle;
+}
+
+
+.ikea-title-2 {
+  background-color: var(--brown);
+}
+
+.ikea-title-2-h3 {
+  display: block;
+  text-transform: uppercase;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 0 5px 10px;
+}
+
+.ikea-content-bottom {
+  margin-top: 35px;
+  column-count: 2;
+  column-gap: 30px;
+  break-after: avoid;
+}
