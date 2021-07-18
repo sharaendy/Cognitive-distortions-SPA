@@ -45,7 +45,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: var(--dark);
   text-decoration: none;
 }
 
