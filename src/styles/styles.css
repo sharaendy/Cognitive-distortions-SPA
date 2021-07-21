@@ -50,17 +50,21 @@
 }
 
 .text-col {
-  margin-top: 185px;
+  margin-top: 200px;
 
   column-count: 2;
   column-gap: 30px;
+}
+
+.text-col p:nth-child(3) {
+  margin-bottom: 17px;
 }
 
 .btn {
   display: block;
   width: 148px;
   height: 49px;
-  margin-top: 40px;
+  margin-top: 39px;
   margin-left: 570px;
   padding: 12px 24px;
 
