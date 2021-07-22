@@ -1,3 +1,166 @@
+/* !ШРИФТЫ */
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url("/assets/fonts/Neucha/Neucha-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "OpenSans";
+  src:
+    local("OpenSans-Regular"),
+    url("/assets/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "OpenSans";
+  src:
+    local("OpenSans-Bold"),
+    url("/assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+}
+
+/* !ШРИФТЫ */
+
+/* !ПЕРЕМЕННЫЕ */
+:root {
+  --white: #fff;
+  --brown: #b09a81;
+  --blue: #1085c5;
+  --light: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-color-hover: #EA7600;
+  --main-color-dark: #42413c;
+  --semi-trans-dark: #908d8b;
+  --semi-trans-white: #d7ccc0;
+}
+
+.bgrd-col-light {
+  background-color: var(--light);
+}
+
+.bgrd-col-white {
+  background-color: var(--white);
+}
+
+.bgrd-col-brown {
+  background-color: var(--brown);
+}
+
+.bgrd-col-dark {
+  background-color: var(--main-color-dark);
+}
+
+.font-colr-main {
+  color: var(--main-color);
+}
+
+.font-colr-brown {
+  color: var(--brown);
+}
+
+.font-colr-semi-trans {
+  color: var(--semi-trans-white);
+}
+
+.font-colr-white {
+  color: #fff;
+}
+
+.font-colr-dark {
+  color: var(--dark);
+}
+
+/* !ПЕРЕМЕННЫЕ */
+
+/* !BASE */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+
+  color: var(--dark);
+  font-size: 16px;
+  font-family: "open sans", sans-serif;
+  line-height: 1.6em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+  font-weight: normal;
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+  color: var(--main-color);
+}
+
+h3 {
+  font-size: 34px;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+ul li {
+  /* list-style: none; */
+}
+
+button {
+  border: none;
+
+  background: transparent;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* !BASE */
+
+
+/* !СТИЛИ */
 .wrapper {
   /* width: 100vw; */
   /* overflow: hidden; */
@@ -316,3 +479,5 @@
 
   white-space: nowrap;
 }
+
+/* !СТИЛИ */
