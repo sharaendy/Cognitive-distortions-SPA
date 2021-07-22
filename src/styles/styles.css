@@ -89,7 +89,8 @@ body {
 
   color: var(--dark);
   font-size: 16px;
-  font-family: "open sans", sans-serif;
+  font-family: "OpenSans";
+  /* font-family: "OpenSans", sans-serif; */
   line-height: 1.6em;
 
   -webkit-font-smoothing: antialiased;
@@ -105,7 +106,8 @@ h6 {
   margin: 0;
 
   font-weight: normal;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha";
+  /* font-family: "Neucha", sans-serif; */
   line-height: 1.2em;
 }
 
@@ -282,7 +284,7 @@ img {
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1;
-  font-family: Neucha;
+  font-family: "Neucha";
 }
 
 .nav-item:nth-child(3n) {
@@ -293,7 +295,7 @@ img {
   font-size: 52px;
   line-height: 120%;
   color: #fff;
-  font-family: Neucha;
+  font-family: "Neucha";
 }
 
 .nav-item {
@@ -305,7 +307,7 @@ img {
 }
 
 .item-title {
-  font-family: Neucha;
+  font-family: "Neucha";
   color: var(--main-color);
   margin-bottom: 16px;
 }
@@ -340,13 +342,13 @@ img {
 }
 
 .sub-title {
-  font-family: Neucha;
+  font-family: "Neucha";
   font-size: 24px;
   color: var(--semi-trans-dark);
 }
 
 .content-upper {
-  font-family: Neucha;
+  font-family: "Neucha";
   font-size: 34px;
   line-height: 41px;
   margin-top: 30px;
@@ -366,7 +368,7 @@ img {
 .title-bottom {
   display: block;
   text-transform: uppercase;
-  font-family: OpenSans;
+  font-family: "OpenSans";
   font-size: 14px;
   font-weight: bold;
   padding: 5px 0 5px 10px;
