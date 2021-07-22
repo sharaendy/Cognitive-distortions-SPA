@@ -2,7 +2,7 @@
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url("../../assets/fonts/Neucha/Neucha-Regular.ttf") format("truetype");
+  src: url("./../../assets/fonts/Neucha/Neucha-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -10,7 +10,7 @@
   font-family: "OpenSans";
   src:
     local("OpenSans-Regular"),
-    url("../../assets/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+    url("./../../assets/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -18,7 +18,7 @@
   font-family: "OpenSans";
   src:
     local("OpenSans-Bold"),
-    url("../../assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+    url("./../../assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 }
 
 /* !ШРИФТЫ */
