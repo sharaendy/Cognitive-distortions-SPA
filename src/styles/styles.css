@@ -22,6 +22,7 @@
     local("OpenSans-Bold"),
     url("../../assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 }
+
 /* !ШРИФТЫ */
 
 /* !ПЕРЕМЕННЫЕ */
@@ -161,6 +162,7 @@ form {
 
 .container {
   position: relative;
+
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -186,8 +188,9 @@ form {
 }
 
 .bgrd-pic::before {
-  display: block;
   position: absolute;
+  display: block;
+
   box-sizing: border-box;
   width: 100%;
   height: 100%;
@@ -235,12 +238,12 @@ form {
   margin-left: 570px;
   padding: 12px 24px;
 
-  font-weight: bold;
   color: var(--white);
-
-  background-color: var(--main-color);
+  font-weight: bold;
 
   text-transform: uppercase;
+
+  background-color: var(--main-color);
 }
 
 .btn:hover {
@@ -256,13 +259,14 @@ form {
 .discription {
   margin-bottom: 32px;
 
-  text-align: center;
   color: #212529;
+  text-align: center;
 }
 
 .video-sec {
-  z-index: 300;
   height: 85.9vh;
+
+  z-index: 300;
 }
 
 .mb-16 {
@@ -271,10 +275,10 @@ form {
 
 .video-port {
   position: absolute;
+  left: 50%;
 
   width: 919px;
   height: 569px;
-  left: 50%;
 
   transform: translate(-50%, 0);
 }
@@ -293,7 +297,7 @@ form {
 
   margin-top: 199px;
   padding: 0;
-	
+
   list-style: none;
 }
 
