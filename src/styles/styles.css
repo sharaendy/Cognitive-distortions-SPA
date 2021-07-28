@@ -191,7 +191,7 @@ form {
 }
 
 .content {
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .content-video {
@@ -435,8 +435,8 @@ form {
   text-decoration: underline;
 }
 
-footer {
-  margin-bottom: 111px;
+.footer {
+  /* margin-bottom: 111px; */
 }
 
 .link-hexlet {
@@ -468,7 +468,7 @@ footer {
   font-size: 13.1px;
   line-height: 160%;
   height: 50px;
-  width: 423px;
+  width: 415px;
   padding: 15px;
   border: 1px solid #E3E3E3;
   background-color: #fff;
@@ -482,7 +482,7 @@ footer {
 
 .send {
   position: relative;
-  width: 62px;
+  width: 70px;
   height: 50px;
   background-color: var(--main-color);
 }
@@ -497,10 +497,12 @@ footer {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  z-index: 500;
 
 
   background-image: url(/src/img/send.svg);
-  background-position: 12px 12px;
+  padding: 15px 25px;
+  background-position: 14px 12px;
   background-repeat: no-repeat;
 
   content: "";
