@@ -190,6 +190,14 @@ img {
   padding-top: 100px;
 }
 
+.content-video {
+  padding-top: 101px;
+}
+
+.content-nav {
+  padding-top: 1px;
+}
+
 .bgrd-pic::before {
   position: absolute;
   display: block;
@@ -262,7 +270,7 @@ img {
 }
 
 .video-sec {
-  height: 805px;
+  max-height: 85.9%;
   z-index: 300;
 }
 
