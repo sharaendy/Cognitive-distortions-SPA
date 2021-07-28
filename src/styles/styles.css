@@ -350,6 +350,11 @@ img {
   column-gap: 106px;
 }
 
+.upper-article-right {
+  column-count: 2;
+  column-gap: 30px;
+}
+
 .mg-top {
   margin-top: 0.9%;
 }
