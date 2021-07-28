@@ -184,14 +184,14 @@ form {
   position: relative;
 
   max-width: 1440px;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
 
   /* border: 1px solid transparent; */
 }
 
 .content {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .content-video {
@@ -274,8 +274,12 @@ form {
 }
 
 .video-sec {
-  max-height: 85.9%;
   z-index: 300;
+  height: 85.9vh;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .video-port {
@@ -286,9 +290,13 @@ form {
   transform: translate(-50%, 0);
 }
 
-.video {
+.shadow {
   /* filter: drop-shadow(0 16px 32px rgba(255, 23, 23, 0.74)); */
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.mb-10-u {
+  margin-bottom: -9px;
 }
 
 .nav-list {
@@ -351,8 +359,11 @@ form {
 
 
 .upper-article {
-  column-count: 2;
-  column-gap: 106px;
+  display: flex;
+}
+
+.col-2 {
+  padding-left: 30px;
 }
 
 .upper-article-right {
@@ -361,12 +372,11 @@ form {
 }
 
 .mg-top {
-  margin-top: 0.9%;
+  margin-top: 4px;
 }
 
 .bottom-article {
   margin-top: 100px;
-  margin-bottom: 20px;
 }
 
 .sub-title {
@@ -379,7 +389,7 @@ form {
   font-family: "Neucha";
   font-size: 34px;
   line-height: 120%;
-  margin-top: 30px;
+  margin-top: 29px;
 }
 
 .content-bottom {
@@ -391,10 +401,6 @@ form {
 
 .padd-bott {
   padding-bottom: 10px;
-}
-
-.image {
-  vertical-align: middle;
 }
 
 .title-bottom {
