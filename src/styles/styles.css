@@ -426,11 +426,17 @@ form {
 
 .materials {
   margin-bottom: 16px;
+  /* font-size: 14px;
+  line-height: 160%; */
 }
 
 .link-materials {
   color: #1085C5;
   text-decoration: underline;
+}
+
+footer {
+  margin-bottom: 111px;
 }
 
 .link-hexlet {
@@ -459,6 +465,8 @@ form {
 }
 
 .input {
+  font-size: 13.1px;
+  line-height: 160%;
   height: 50px;
   width: 423px;
   padding: 15px;
@@ -479,6 +487,10 @@ form {
   background-color: var(--main-color);
 }
 
+.send:hover {
+  background-color: var(--main-color-hover);
+}
+
 .send::before {
   position: relative;
   display: block;
@@ -496,6 +508,7 @@ form {
 
 .subs {
   font-size: 12px;
+  line-height: 210%;
 }
 
 .subs a {
