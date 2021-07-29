@@ -320,21 +320,21 @@ form {
 }
 
 .nav-item:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .nav-title {
-  font-size: 52px;
   color: #fff;
-  line-height: 120%;
+  font-size: 52px;
   font-family: "Neucha", sans-serif;
+	line-height: 120%;
 }
 
 .item-title {
-  font-family: "Neucha", sans-serif;
-  color: var(--main-color);
-
   margin-bottom: 16px;
+
+  color: var(--main-color);
+  font-family: "Neucha", sans-serif;
 }
 
 .nav-item:hover {
@@ -383,11 +383,11 @@ form {
 }
 
 .content-upper {
+  margin-top: 29px;
+
   font-size: 34px;
   font-family: "Neucha", sans-serif;
   line-height: 120%;
-
-  margin-top: 29px;
 }
 
 .content-bottom {
@@ -407,20 +407,19 @@ form {
 
   padding: 5px 0 5px 10px;
 
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
+  text-transform: uppercase;
   font-family: "OpenSans", sans-serif;
-	
 }
 
 .subscribe {
   display: flex;
   height: 190px;
 
-  background-color: var(--main-color-dark);
-
   margin-bottom: 77px;
+
+	background-color: var(--main-color-dark);
 }
 
 .footer-info {
@@ -455,33 +454,33 @@ form {
 .footer-left-col h3 {
   max-width: 555px;
 
-  color: var(--white);
-
   padding: 55px;
+  
+	color: var(--white);
 }
 
 .footer-right-col {
-  color: var(--white);
-
   padding-left: 15px;
+  
+	color: var(--white);
 }
 
 .mail {
-  font-size: 18px;
-
-  margin-top: 38px;
+	margin-top: 38px;
   margin-bottom: 12px;
+
+  font-size: 18px;
 }
 
 .input {
-  height: 50px;
-  width: 415px;
-  border: 1px solid #e3e3e3;
-
   padding: 15px;
 
-  line-height: 160%;
+  width: 415px;
+  height: 50px;
+  border: 1px solid #e3e3e3;
+
   font-size: 13.1px;
+  line-height: 160%;
 
   background-color: #fff;
 }
@@ -506,8 +505,8 @@ form {
 }
 
 .send::before {
-  display: block;
   position: relative;
+  display: block;
   z-index: 500;
 	
   box-sizing: border-box;
