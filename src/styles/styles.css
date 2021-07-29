@@ -189,6 +189,7 @@ form {
 
 .bgrd-pic::before {
   position: absolute;
+
   display: block;
 
   box-sizing: border-box;
@@ -264,9 +265,9 @@ form {
 }
 
 .video-sec {
-  height: 85.9vh;
-
   z-index: 300;
+
+  height: 85.9vh;
 }
 
 .mb-16 {
@@ -303,9 +304,10 @@ form {
 
 .item-number {
   margin-bottom: 40px;
+
   font-size: 64px;
+  font-family: "Neucha", sans-serif;
   line-height: 1;
-  font-family: "Neucha";
 }
 
 .nav-item {
@@ -313,6 +315,7 @@ form {
   margin-right: 30px;
   margin-bottom: 20px;
   padding: 24px;
+
   background-color: var(--light);
 }
 
@@ -322,14 +325,15 @@ form {
 
 .nav-title {
   font-size: 52px;
-  line-height: 120%;
   color: #fff;
-  font-family: "Neucha";
+  line-height: 120%;
+  font-family: "Neucha", sans-serif;
 }
 
 .item-title {
-  font-family: "Neucha";
+  font-family: "Neucha", sans-serif;
   color: var(--main-color);
+
   margin-bottom: 16px;
 }
 
@@ -350,7 +354,6 @@ form {
   margin-right: 30px;
   margin-bottom: 20px;
 }
-
 
 .upper-article {
   display: flex;
@@ -374,20 +377,22 @@ form {
 }
 
 .sub-title {
-  font-family: "Neucha";
-  font-size: 24px;
   color: var(--semi-trans-dark);
+  font-size: 24px;
+  font-family: "Neucha", sans-serif;
 }
 
 .content-upper {
-  font-family: "Neucha";
   font-size: 34px;
+  font-family: "Neucha", sans-serif;
   line-height: 120%;
+
   margin-top: 29px;
 }
 
 .content-bottom {
   margin-top: 20px;
+
   column-count: 2;
   column-gap: 30px;
   break-after: avoid;
@@ -399,17 +404,22 @@ form {
 
 .title-bottom {
   display: block;
-  text-transform: uppercase;
-  font-family: "OpenSans";
-  font-size: 14px;
-  font-weight: bold;
+
   padding: 5px 0 5px 10px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+	
 }
 
 .subscribe {
   display: flex;
   height: 190px;
+
   background-color: var(--main-color-dark);
+
   margin-bottom: 77px;
 }
 
@@ -426,12 +436,10 @@ form {
 
 .materials {
   margin-bottom: 16px;
-  /* font-size: 14px;
-  line-height: 160%; */
 }
 
 .link-materials {
-  color: #1085C5;
+  color: #1085c5;
   text-decoration: underline;
 }
 
@@ -440,50 +448,56 @@ form {
 }
 
 .link-hexlet {
-  color: #1085C5;
+  color: #1085c5;
   text-decoration: underline;
 }
 
 .footer-left-col h3 {
-  color: var(--white);
   max-width: 555px;
+
+  color: var(--white);
+
   padding: 55px;
 }
 
 .footer-right-col {
   color: var(--white);
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+
   padding-left: 15px;
 }
 
 .mail {
   font-size: 18px;
+
   margin-top: 38px;
   margin-bottom: 12px;
 }
 
 .input {
-  font-size: 13.1px;
-  line-height: 160%;
   height: 50px;
   width: 415px;
+  border: 1px solid #e3e3e3;
+
   padding: 15px;
-  border: 1px solid #E3E3E3;
+
+  line-height: 160%;
+  font-size: 13.1px;
+
   background-color: #fff;
 }
 
 .form-container {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .send {
   position: relative;
+
   width: 70px;
   height: 50px;
+
   background-color: var(--main-color);
 }
 
@@ -492,12 +506,13 @@ form {
 }
 
 .send::before {
-  position: relative;
   display: block;
+  position: relative;
+  z-index: 500;
+	
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  z-index: 500;
 
   padding: 15px 25px;
 
