@@ -297,6 +297,7 @@ form {
   flex-wrap: wrap;
 
   margin-top: 199px;
+  margin-bottom: 0;
   padding: 0;
 
   list-style: none;
