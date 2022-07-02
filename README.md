@@ -1,4 +1,4 @@
-##### Description
+### Description
 
 A simple non responsive landing page.
 
@@ -8,7 +8,7 @@ A simple non responsive landing page.
 
 
 
-##### Authored by
+### Authored by
 
 Шараевский Андрей (sharaendy)
 
