@@ -2,7 +2,7 @@
 
 A simple non responsive landing page.
 
-##### https://sharaendy.github.io/layout-project-3/
+##### layout3hexlet.surge.sh
 
 ------
 
