@@ -2,7 +2,7 @@
 
 A simple non responsive landing page.
 
-##### layout3hexlet.surge.sh
+##### https://layout3hexlet.surge.sh/
 
 ------
 
